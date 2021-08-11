@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<body>
+		<h5 class="text-center">Twitch API to Live2DViewerEx Link</h5>
+		
+		<div class="console">
+			<textarea class="ws-output" rows="8" style="font-family:Courier;width:100%">Starting...</textarea>
+			<form id="topic-form" class="text-right form-inline" >
+				<label id="topic-label" for="topic-text"></label>
+				<button type="submit" class="btn">Refresh</button>
+			</form>
+			<form id="set-def" class="text-right form-inline" >
+				<label id="status-label" for="status-text">x</label>
+				<br>
+				<button onclick="resetmodel()" class="btn">Default Model</button>
+				
+			</form>
+		</div>
+		
+		<script src="jquery-3.6.0.min.js"></script>
+		<script src="userdata.js"></script>
+        <script src="main.js"></script>
+	</body>
+</html>
